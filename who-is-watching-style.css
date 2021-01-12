@@ -1,5 +1,4 @@
 body {
-    /*background-image: url("/pictures/Screenshot\ 2021-01-12\ 173211.png");*/
     margin: 0;
     background-color: #141414;
 }
@@ -52,8 +51,9 @@ ul {
 }
 
 ul div {
+    position: relative;
     display: block;
-    height: 145;
+    height: 255;
     width: auto;
     margin-right: 29px;
     color: gray;
@@ -69,9 +69,12 @@ ul img {
 }
 
 ul div a {
-    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
     color: gray;
-    text-decoration: none;
+    top: 0%;
 }
 
 div p {
@@ -82,7 +85,7 @@ ul li {
     size: 0px;
 }
 
-.button {
+.manage {
     background-color: #141414;
     border: 1px solid gray;
     color: gray;
@@ -92,4 +95,8 @@ ul li {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+}
+
+.button-wrapp {
+    text-align: center;
 }
