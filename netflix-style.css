@@ -12,7 +12,7 @@ body{
       rgba(0,0,0,0) 20%,
       rgba(0,0,0,0.9) 0%
     ),
-    url(./pictures/netflix-background.jpg);
+    url(./pictures/netflix-background-2.jpg);
 
     background-image: linear-gradient(top, 
       rgba(0,0,0,0.9) 0%, 
@@ -26,13 +26,18 @@ body{
       rgba(0,0,0,0) 20%,
       rgba(0,0,0,0.9) 0%
     ),
-    url(./pictures/netflix-background.jpg);
+    url(./pictures/netflix-background-2.jpg);
+    background-repeat: no-repeat;
 }
 
 .container{
     width: 100%;
     height: 100vh;
     text-align: center;
+}
+
+.heading {
+    display: flex;
 }
 
 .sign-button{
@@ -54,7 +59,8 @@ body{
 }
 
 .sub-container{
-    margin-top: 30px;
+    margin-top: 150px;
+    height: 120px;
 }
 
 .unlimited{
@@ -69,6 +75,7 @@ body{
     font-weight: 250;
     color: white;
     font-family: Helvetica;
+    margin-bottom: 20px;
 }
 
 .restart{
@@ -79,40 +86,37 @@ body{
 }
 
 .join-button{
-    text-align: center;
+    display: flex;
+    justify-content:center;
 }
+
 
 .get{
     font-size: 25px;
     font-weight: 200;
     color: white;
-    right: 25%;
-    top: 66%;
-    position: absolute;
     font-family: Helvetica;
     background: #e50914;
     border: none;
     height: 60px;
     width: 250px;
-    opacity: 0.95;
+    opacity: 1;
+    box-sizing: border-box;
 }
 
 .get:hover{
     opacity: 1;
+    background: #f61d1d;
 }
 
 input[type=text]{
-    width: 650px;
+    width: 450px;
     border-radius: 2px;
     height: 60px;
-    right: 38.1%;
-    top: 66%;
-    position: absolute;
     box-sizing: border-box;
     font-size: 18px;
     font-family: Helvetica;
     border: none;
-    padding-left: 12px;
 }
 
 .netflix-logo {
