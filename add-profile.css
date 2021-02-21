@@ -39,7 +39,6 @@ header {
 
 .settings {
     display: flex;
-    justify-content: center;
     border-top: 1px solid rgba(128, 128, 128, 0.384);
     padding-top: 30px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.384);
@@ -49,7 +48,7 @@ header {
 #profile-picture {
     height: 175px;
     border-radius: 10px;
-    padding-right: ;
+    margin-left: 657px;
 }
 
 .name {
@@ -57,7 +56,48 @@ header {
     margin-left: 20px;
 }
 
+.kid {
+    color: white;
+    margin-top: 74px;
+    font-size: 25px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-left: 5px;
+}
+
 .kid-checkbox {
-    margin-top: 75px;
+    margin-top: 63px;
     margin-left: 20px;
+    color: white;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 25px;
+}
+
+#kid-checkbox {
+    -webkit-appearance: none;
+	background-color: #141414;
+	border: 1px solid rgba(128, 128, 128, 0.384);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 20px;
+	display: inline-block;
+	position: relative;
+}
+
+#kid-checkbox:active, #kid-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#kid-checkbox:checked {
+    background-color: #141414;
+	border: 1px solid #141414;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #141414;
+}
+
+#kid-checkbox:checked:after {
+    content: '\2714';
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	color: grey;
 }
