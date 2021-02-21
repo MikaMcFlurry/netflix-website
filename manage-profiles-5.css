@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #141414;
+}
+
+header {
+    display: block;
+    height: 70px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 42%, rgba(0,0,0,0) 95%);
+}
+
+#netflix-logo {
+    height: 25px;
+    width: auto;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+#who-is-watching {
+    color: #fff;
+    width: 100%;
+    font-size: 3.6vw;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#add-profile-img {
+    height: 200px;
+    width: auto;
+}
+
+#add-profile-text {
+    margin-left: 5px;
+    margin-top: 28px;
+}
+
+ul div:hover {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul div {
+    position: relative;
+    display: block;
+    height: 255;
+    width: auto;
+    margin-right: 29px;
+    color: gray;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+ul img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+ul div a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+    color: gray;
+    top: 0%;
+}
+
+div p {
+    text-align: center;
+}
+
+ul li {
+    size: 0px;
+}
+
+.manage {
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.manage:hover {
+    background-color: #db0000;
+    border: 1px solid #db0000;
+    color: #ffffff;
+}
+
+.button-wrapp {
+    text-align: center;
+}

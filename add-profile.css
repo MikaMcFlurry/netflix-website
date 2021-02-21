@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #141414;
+}
+
+header {
+    display: block;
+    height: 70px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 42%, rgba(0,0,0,0) 95%);
+}
+
+#netflix-logo {
+    height: 25px;
+    width: auto;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.headline {
+    display: flex;
+    color: white;
+    font-size: 75px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    justify-content: center;
+    margin-right: 220px;
+    margin-top: 150px;
+}
+
+.underline {
+    display: flex;
+    color: grey;
+    font-size: 25px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    justify-content: center;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.384);
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    padding-bottom: 30px;
+}
+
+#profile-picture {
+    height: 175px;
+    border-radius: 10px;
+    padding-right: ;
+}
+
+.name {
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+.kid-checkbox {
+    margin-top: 75px;
+    margin-left: 20px;
+}
