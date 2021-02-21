@@ -22,7 +22,7 @@ header {
     font-size: 75px;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     justify-content: center;
-    margin-right: 220px;
+    margin-right: 333px;
     margin-top: 150px;
 }
 
@@ -32,23 +32,30 @@ header {
     font-size: 25px;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     justify-content: center;
-    margin-right: 55px;
+    margin-right: 161px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.settings {
+.border {
     display: flex;
     border-top: 1px solid rgba(128, 128, 128, 0.384);
-    padding-top: 30px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    width: 750px;
+    justify-content: center;
+    margin-left: 608px;
+}
+
+.settings {
+    display: flex;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
 #profile-picture {
     height: 175px;
     border-radius: 10px;
-    margin-left: 657px;
+    margin-left: 608px;
 }
 
 .name {
