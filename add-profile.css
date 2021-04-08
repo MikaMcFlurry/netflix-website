@@ -59,8 +59,24 @@ header {
 }
 
 .name {
-    margin-top: 75px;
+    margin-top: 63px;
     margin-left: 20px;
+}
+
+#name::placeholder {
+    color: #CCCCCC;
+}
+
+#name {
+    width: 430px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 0%;
+    font-size: 25px;
+    background-color: #666;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: transparent;
+    color: #ffffff;
 }
 
 .kid {
@@ -107,4 +123,43 @@ header {
 	top: 0px;
 	left: 10px;
 	color: grey;
+}
+
+.continue {
+    width: 210px;
+    height: 40px;
+    border-radius: 0%;
+    border: transparent;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 108px;
+    margin-top: 30px;
+}
+
+.continue:hover {
+    color: #CCCCCC;
+    background-color: #CC0000;
+}
+
+.manage {
+    width: 210px;
+    height: 40px;
+    border: 1px solid #808080;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #808080;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 20px; 
+    background-color: transparent;
+}
+
+.manage:hover {
+    color: #CCCCCC;
+    border: 1px solid white;
+}
+
+.buttons {
+    margin-left: 500px;
 }
